@@ -1,10 +1,12 @@
 {
   "name": "加油卡優惠計算",
-  "short_name": "加油卡",
-  "start_url": "./index.html",
+  "short_name": "油卡計算",
+  "description": "計算加油卡折扣優惠的工具",
+  "start_url": "/gas-card-calc/",
   "display": "standalone",
   "background_color": "#2a2a2a",
   "theme_color": "#ff8c42",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "icon-192.png",
