@@ -10,7 +10,7 @@
 
     gtag('config', 'G-XYJ4YKYRCP');
     </script>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>加油卡優惠計算</title>
@@ -19,7 +19,9 @@
     <meta name="theme-color" content="#ff8c42">
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./service-worker.js');
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/gas-card-calc/service-worker.js');
+            });
         }
     </script>
 
