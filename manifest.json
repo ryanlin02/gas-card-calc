@@ -1,0 +1,20 @@
+{
+  "name": "加油卡優惠計算",
+  "short_name": "加油卡",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#2a2a2a",
+  "theme_color": "#ff8c42",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
